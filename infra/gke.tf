@@ -16,8 +16,6 @@ resource "google_container_cluster" "gke_cluster_0" {
   monitoring_service = "monitoring.googleapis.com/kubernetes"
   logging_service    = "logging.googleapis.com/kubernetes"
   master_auth {
-    username = ""
-    password = ""
 
     client_certificate_config {
       issue_client_certificate = false
